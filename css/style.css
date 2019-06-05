@@ -1,0 +1,21 @@
+html, body{
+	font-family: helvetica neue, helvetica;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+header ul{
+
+}
+
+.homecontent ul{
+	display: inline-block;
+	word-wrap: break-word;
+	width:200px;
+	margin: 10px 20px;
+}
+
+footer ul{
+
+}
