@@ -6,7 +6,7 @@ html, body{
 }
 
 header{
-	text-align: center
+	text-align: center;
 }
 
 header ul{
@@ -27,5 +27,9 @@ footer ul{
 }
 
 footer ul li{
-	text-align: center
+	text-align: center;
+}
+
+.content1{
+	text-align: center;
 }
