@@ -5,17 +5,27 @@ html, body{
 	padding: 0;
 }
 
+header{
+	text-align: center
+}
+
 header ul{
+	list-style: none;
+	padding: 20px;
 
 }
 
-.homecontent ul{
-	display: inline-block;
-	word-wrap: break-word;
-	width:200px;
-	margin: 10px 20px;
+header ul li{
+	padding: 10px;
+	display: inline;
 }
+
 
 footer ul{
+	list-style: none;
 
+}
+
+footer ul li{
+	text-align: center
 }
