@@ -20,6 +20,10 @@ header ul li{
 	display: inline;
 }
 
+footer{
+	clear: both;
+	padding-top: 20px;
+}
 
 footer ul{
 	list-style: none;
