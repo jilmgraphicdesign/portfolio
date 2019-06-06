@@ -30,6 +30,17 @@ footer ul li{
 	text-align: center;
 }
 
-.content1{
+.index-content1{
 	text-align: center;
+}
+
+.about-content img{
+	float: left;
+	clear: both;
+	margin: 0px 20px;
+
+}
+
+dl{
+	clear:both;
 }
