@@ -40,11 +40,23 @@ footer ul li{
 
 .about-content img{
 	float: left;
-	clear: both;
-	margin: 0px 20px;
+	margin: 5px 20px 20px 20px;
 
 }
 
-dl{
-	clear:both;
+.abandon-quest-image{
+	clear:left;
+	float: right;
+	margin: 5px 20px 20px 20px;
+}
+
+.abandon-quest-p{
+	clear:left;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.about-content-text{
+	width: 600px;
+	margin: 0 auto;
 }
