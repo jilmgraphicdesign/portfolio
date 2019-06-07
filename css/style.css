@@ -51,7 +51,6 @@ header{
 	display: inline-block;
 	width: 100px;
 	height:100px;
-	text-align: center;
 }
 
 .nav-buttons a:link, a:visited{
@@ -106,7 +105,7 @@ footer a:hover, a:active{
 	display: inline-block;
 	position: absolute;
 	top: 75px;
-	right: 300px;
+	left: 50%;
 	font-size: 125px;
 	text-align: left;
 	opacity: 0.7;
@@ -116,9 +115,9 @@ footer a:hover, a:active{
 }
 
 .index-content1 img{
-	margin: 0 600px 0 0;
-	width: 600px;
-    height:auto;
+	margin: 0 50% 0 0;
+	width: auto;
+    height: 715px;
 
 }
 .name-is{
@@ -151,7 +150,7 @@ footer a:hover, a:active{
 	opacity: 0.7;
 	position: absolute;
 	top: 810px;
-	left: 100px;
+	left: 94px;
 	color: #abcea7;
 
 }
@@ -174,20 +173,20 @@ footer a:hover, a:active{
 	text-align: left;
 	opacity: 0.7;
 	position: absolute;
-	top: 810px;
-	left: 460px;
+	top: 799px;
+    left: 483px;
 	color: #9f95ad;
 
 }
 
 .graphic{
 	display: inline-block;
-	font-size: 40px;
+	font-size: 58px;
 	text-align: left;
 	opacity: 0.7;
 	position: absolute;
-	top: 898px;
-	left: 144px;
+	top: 843px;
+	left: 134px;
 	color: #c9a9bb;
 
 }
@@ -195,7 +194,7 @@ footer a:hover, a:active{
 .index-content2{
 	width: 600px;
 	text-align: left;
-	margin:0 auto auto 50%;
+	margin:60px auto auto 50%;
 }
 
 .page-break-box{
