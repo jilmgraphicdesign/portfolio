@@ -55,7 +55,7 @@ header{
 	border: dotted 5px;
 	border-color: #abcea7;
 	text-decoration: none;
-	padding: 10px;
+	padding:35px 10px 0px;
 	border-radius: 70px;
 	display: inline-block;
 	width: 100px;
@@ -64,17 +64,16 @@ header{
 	font-family: 'allison_scriptregular';
 	font-size: 35px;
 	font-weight: bold;
+	background-color: #f6f5f3;
 }
 
 .nav-buttons a:link, a:visited{
 	color: #abcea7;
 	border-color: #abcea7;
-	background-color: #f6f5f3;
 
 }
 
 .nav-buttons a:hover, a:active{
-	background-color: #f6f5f3;
 	color: #c9a9bb;
 	border-color: #c9a9bb;
 }
@@ -122,7 +121,7 @@ footer a:hover, a:active{
 .index-content1 h1{
 	display: inline-block;
 	position: absolute;
-	top: 65px;
+	top: 80px;
 	left: 54%;
 	font-size: 123px;
 	text-align: left;
@@ -499,3 +498,43 @@ button.cta: hover{
  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
+
+.popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
+
+.popup .blanket{
+	background-color: rgba(0,0,0,.1);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 3;
+
+}
+
+.popup-content{
+	box-sizing: border-box;
+	width: 960px
+	padding: 30px 40px;
+	background-color: #f6f5f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
