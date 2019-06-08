@@ -210,6 +210,7 @@ footer a:hover, a:active{
 	background: rgba(246, 245, 243, 0.5);
 	position: absolute;
 	z-index: 2;
+	padding: 5px;
 
 }
 
