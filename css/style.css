@@ -345,7 +345,7 @@ footer a:hover, a:active{
 
 .contact-form{
 	background: rgba(246, 245, 243, 0.5);
-	height: 75vh;
+	height: 1000px;
 	width: 50%;
 	float: right;
 	margin: 0;
@@ -353,11 +353,38 @@ footer a:hover, a:active{
 }
 
 .contact-form-text{
-	padding: 130px 75px 75px;
+	width: 400px;
+	height: 600px;
+	padding: 130px 25px 75px;
+}
+
+.contact-form h2{
+	text-align: center;
+	font-family: 'allison_scriptregular';
+	font-size: 40px;
+	margin-left: 50px;
+}
+
+.contact-form .item{
+	float: left;
+	width: 200px;
+	margin-left: 40px;
+}
+.contact-form label{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.contact-form input[type='text']{
+	display: block;
+	font-size: 20px;
+	width: 400px;
+	height: 80px;
 }
 
 button.cta{
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	color:#f6f5f3;
 	background-color: #abcea7;
@@ -366,10 +393,12 @@ button.cta{
 	padding: 20px 30px;
 	border-radius: 10px;
 	text-decoration: none;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-left: 140px;
 	cursor: pointer;
 	outline: none;
 	border: none;
+	width: 200px;
 }
 
 button.cta:active{
@@ -515,8 +544,9 @@ button.cta:hover{
 }
 
 .popup{
-	display: none;
+	/* display: none; */
 	position: fixed;
+	z-index: 3;
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -527,19 +557,41 @@ button.cta:hover{
 .popup .blanket{
 	background-color: rgba(0,0,0,.1);
 	position: absolute;
+	z-index: 3;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
-	z-index: 3;
-
 }
 
 .popup-content{
 	box-sizing: border-box;
-	width: 960px
+	width: 960px;
+	height: 540px;
 	padding: 30px 40px;
 	background-color: #f6f5f3;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -480px;
+	margin-top: -270px;
+
+}
+
+.popup .close{
+	width: 40px;
+	height: 40px;
+	color: #c9a9bb;
+	background: #abcea7;
+	font-size: 30px;
+	font-weight: 800;
+	top: -20px;
+	right: -20px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	position: absolute;
+	cursor: pointer;
 }
 
 
