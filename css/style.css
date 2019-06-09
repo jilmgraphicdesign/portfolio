@@ -21,7 +21,7 @@ html, body{
 
 header{
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .logo{
@@ -55,16 +55,17 @@ header{
 	border: dotted 5px;
 	border-color: #abcea7;
 	text-decoration: none;
-	padding:35px 10px 0px;
+	padding: 30px 0 0;
 	border-radius: 70px;
 	display: inline-block;
-	width: 100px;
-	height:100px;
+	width: 120px;
+	height:120px;
 	box-shadow: 10px 10px 5px #5b5b5b;
 	font-family: 'allison_scriptregular';
 	font-size: 35px;
 	font-weight: bold;
 	background-color: #f6f5f3;
+	box-sizing: border-box;
 }
 
 .nav-buttons a:link, a:visited{
@@ -98,6 +99,7 @@ footer a:link, a:visited{
 	color: #abcea7;
 	text-decoration: none;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #f6f5f3;
 }
 
 footer a:hover, a:active{
@@ -106,6 +108,7 @@ footer a:hover, a:active{
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #f6f5f3;
 }
 
 .index-footer{
@@ -143,6 +146,7 @@ footer a:hover, a:active{
 	font-size: 90px;
 	color:#9f95ad;
 	z-index: 1;
+	text-shadow: 2px 2px 4px #f6f5f3;
 }
 
 .jenel{
@@ -253,39 +257,12 @@ footer a:hover, a:active{
 	box-shadow: -10px -10px 10px 1px #5b5b5b;
 }
 
-
 .about-content img{
 	float: left;
-	margin: 5px 20px 20px 15%;
+	margin: 50px 20px 20px 15%;
 	height:500px;
 	width: auto;
 
-}
-
-.abandon-quest-image{
-	clear:left;
-	float: right;
-	margin: 5px 20% 20px 20px;
-}
-
-.abandon-quest-p{
-	clear:left;
-	width: 600px;
-	margin: 0 auto;
-}
-
-.abandon-quest-p a:link, a:visited{
-	color: #abcea7;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-.abandon-quest-p  a:hover, a:active{
-	color: #c9a9bb;
-	border-color: #c9a9bb;
-	text-decoration: none;
-	font-size: 14px;
-	font-weight: bold;
 }
 
 .about-content-text{
@@ -307,6 +284,34 @@ footer a:hover, a:active{
 	background-color: ##abcea7;
 }
 
+.abandon-quest-image{
+	clear:left;
+	float: right;
+	margin: 5px 20% 20px 20px;
+}
+
+.abandon-quest-p{
+	clear:left;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.abandon-quest-p a:link, a:visited{
+	color: #abcea7;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px #f6f5f3;
+}
+
+.abandon-quest-p  a:hover, a:active{
+	color: #c9a9bb;
+	border-color: #c9a9bb;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px #f6f5f3;
+}
+
 .contact-content{
 	margin-left: 15%;
 }
@@ -315,6 +320,7 @@ footer a:hover, a:active{
 	color: #abcea7;
 	text-decoration: none;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #f6f5f3;
 }
 
 .contact-content a:hover, a:active{
@@ -323,6 +329,7 @@ footer a:hover, a:active{
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #f6f5f3;
 }
 
 .contact-content h1{
@@ -332,6 +339,7 @@ footer a:hover, a:active{
 
 .contact-content h2 a:hover, a:active{
 	font-size: 20px;
+	text-shadow: 2px 2px 4px #f6f5f3;
 
 }
 
@@ -345,7 +353,7 @@ footer a:hover, a:active{
 }
 
 .contact-form-text{
-	padding: 75px;
+	padding: 130px 75px 75px;
 }
 
 button.cta{
@@ -359,9 +367,16 @@ button.cta{
 	border-radius: 10px;
 	text-decoration: none;
 	margin-top: 10px;
+	cursor: pointer;
+	outline: none;
+	border: none;
 }
 
-button.cta: hover{
+button.cta:active{
+	background-color: #c9a9bb;
+}
+
+button.cta:hover{
 	background-color: #c9a9bb;
 }
 
