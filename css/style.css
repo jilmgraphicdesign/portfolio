@@ -576,9 +576,9 @@ button.cta:hover{
 }
 
 .popup .blanket{
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.3);
 	position: absolute;
-	z-index: 3;
+	z-index: 2;
 	top: 0;
 	bottom: 0;
 	right: 0;
