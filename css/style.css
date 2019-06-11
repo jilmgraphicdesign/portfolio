@@ -563,7 +563,6 @@ button.cta:hover{
 .popup{
 	display: none;
 	position: fixed;
-	z-index: 3;
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -576,7 +575,7 @@ button.cta:hover{
 }
 
 .popup .blanket{
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.5);
 	position: absolute;
 	z-index: 2;
 	top: 0;
@@ -596,6 +595,7 @@ button.cta:hover{
 	top: 50%;
 	margin-left: -480px;
 	margin-top: -270px;
+	z-index: 3;
 
 }
 
