@@ -252,27 +252,28 @@ footer a:hover, a:active{
 	position: absolute;
 	text-align: center;
 	left: 0;
-	top:740px;
+	top: 800px;
 	color:#abcea7;
 	box-shadow: -10px -10px 10px 1px #5b5b5b;
 }
 
 .about-content img{
 	float: left;
-	margin: 50px 20px 20px 30%;
 	height: 500px;
 	width: auto;
+	margin-right: 10px;
 
 }
 
 .about-content-text{
 	height: 500px;
-	width: 600px;
-	margin: 50px auto auto 50%;
+	width: 750px;
+	margin: 0 auto;
+	margin-bottom: 220px;
 	padding: 0 10px 0;
 	text-align: left;
 	background: rgba(246, 245, 243, 0.5);
-	position: absolute;
+	display: block;
 	z-index: 2;
 }
 
@@ -291,20 +292,21 @@ footer a:hover, a:active{
 }
 
 .abandon-quest-image{
-	margin: 700px 20px 20px 65%;
-	position: absolute;
+	margin: 5 auto;
+	display: block;
 	z-index: 2;
+	float: right;
 }
 
 .abandon-quest-p{
 	clear:left;
-	width: 600px;
+	width: 750px;
 	height: 200px;
-	margin: 700px 20px 20px 30%;
-	padding: 0 10px 0;
+	margin: 0 auto;
+	padding: 0 10px;
 	text-align: left;
 	background: rgba(246, 245, 243, 0.5);
-	position: absolute;
+	display: block;
 	z-index: 2;
 }
 
@@ -324,12 +326,8 @@ footer a:hover, a:active{
 	text-shadow: 2px 2px 4px #f6f5f3;
 }
 
-.about-footer{
-	margin-top: 900px;
-}
-
 .contact-content{
-	margin-left: 15%;
+	text-align: right;
 }
 
 .contact-content a:link, a:visited{
@@ -346,6 +344,22 @@ footer a:hover, a:active{
 	font-size: 14px;
 	font-weight: bold;
 	text-shadow: 2px 2px 4px #f6f5f3;
+}
+
+.contact-content img{
+	height: 100px;
+	width: 100px;
+	display:block;
+
+}
+
+.contact-content ul{
+	list-style: none;
+}
+
+.contact-content li{
+	padding: 5px;
+	display: inline-block;
 }
 
 .contact-content h1{
@@ -365,6 +379,7 @@ footer a:hover, a:active{
 	width: 50%;
 	float: right;
 	margin: 0;
+	margin-left: 25px;
 
 }
 
