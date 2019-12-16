@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'StudioBrushDEMO-Regular';
+  src: url('StudioBrushDEMO-Regular.eot?#iefix') format('embedded-opentype'),  url('StudioBrushDEMO-Regular.otf')  format('opentype'),
+	     url('StudioBrushDEMO-Regular.woff') format('woff'), url('StudioBrushDEMO-Regular.ttf')  format('truetype'), url('StudioBrushDEMO-Regular.svg#StudioBrushDEMO-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

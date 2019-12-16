@@ -1,10 +1,10 @@
-@font-face {
-    font-family: 'allison_scriptregular';
-    src: url('webfontkit-allison-script/allison_script-webfont.woff2') format('woff2'),
-         url('webfontkit-allison-script/allison_script-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+@font-face {
+  font-family: 'StudioBrushDEMO-Regular';
+  src: url('StudioBrushDEMO-Regular.eot?#iefix') format('embedded-opentype'),  url('StudioBrushDEMO-Regular.otf')  format('opentype'),
+	     url('StudioBrushDEMO-Regular.woff') format('woff'), url('StudioBrushDEMO-Regular.ttf')  format('truetype'), url('StudioBrushDEMO-Regular.svg#StudioBrushDEMO-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html, body{
@@ -201,7 +201,7 @@ footer a:hover, a:active{
 }
 
 .about-content-text h1{
-	font-family: 'allison_scriptregular';
+	font-family: 'StudioBrushDEMO-Regular';
 	font-size: 75px;
 	text-align: center;
 	margin-bottom: 5px;
@@ -287,7 +287,7 @@ footer a:hover, a:active{
 }
 
 .contact-content h1{
-	font-family: 'allison_scriptregular';
+	font-family: 'StudioBrushDEMO-Regular';
 	font-size: 75px;
 	color: #ccbfed;
 }
@@ -324,7 +324,7 @@ footer a:hover, a:active{
 
 .contact-form h2{
 	text-align: center;
-	font-family: 'allison_scriptregular';
+	font-family: 'StudioBrushDEMO-Regular';
 	font-size: 40px;
 	margin-left: 50px;
 	color: #ccbfed;
@@ -384,7 +384,7 @@ button.cta:hover{
 .work-content h1{
 	text-align: center;
 	text-shadow: 2px 2px 4px #f6f5f3;
-	font-family: 'allison_scriptregular';
+	font-family: 'StudioBrushDEMO-Regular';
 	font-size: 75px;
 	color: #ccbfed;
 }
