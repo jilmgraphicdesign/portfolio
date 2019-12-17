@@ -249,8 +249,8 @@ footer a:hover, a:active{
 }
 
 .contact-content img{
-	height: 100px;
-	width: 100px;
+	height: 75px;
+	width: 75px;
 	display:block;
 
 }
@@ -276,11 +276,9 @@ footer a:hover, a:active{
 
 }
 
-.contact-content2{
-	width: 500px;
+.contact-content blockquote{
 	text-align: left;
-	position: absolute;
-	padding: 3px;
+	width: 400px;
 
 }
 
