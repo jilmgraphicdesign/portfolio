@@ -148,11 +148,12 @@ footer a:hover, a:active{
 .page-break-box2-text{
 	width: 750px;
 	margin: 0 auto;
-	padding: 0 10px 0;
+	padding: 10px;
 	text-align: left;
 	background: rgba(246, 245, 243, 1);
 	display: block;
 	z-index: 2;
+	border-radius: 25px;
 }
 
 
@@ -174,6 +175,7 @@ footer a:hover, a:active{
 	background: rgba(246, 245, 243, 0.5);
 	display: block;
 	z-index: 2;
+	border-radius: 25px;
 }
 
 .about-content-text h1{
@@ -195,10 +197,11 @@ footer a:hover, a:active{
 	margin-top: 600px;
 }
 
-.abandon-quest-image{
+.abandon-quest-p img{
 	display: block;
 	z-index: 2;
 	float: right;
+	border-radius: 25px;
 }
 
 .abandon-quest-p{
@@ -207,11 +210,13 @@ footer a:hover, a:active{
 	height: 200px;
 	margin: 0 auto;
 	margin-bottom: 220px;
+	margin-top: 10px;
 	text-align: left;
 	background: rgba(246, 245, 243, 1);
 	display: block;
 	z-index: 2;
 	padding-left: 10px;
+	border-radius: 25px;
 }
 
 .abandon-quest-p a:link, a:visited{
@@ -284,6 +289,7 @@ footer a:hover, a:active{
 	float: right;
 	margin: 0;
 	margin-left: 25px;
+	border-radius: 25px;
 
 }
 
@@ -318,6 +324,7 @@ footer a:hover, a:active{
 	width: 400px;
 	height: 80px;
 	padding-left: 10px;
+	border-radius: 25px;
 }
 
 button.cta{
