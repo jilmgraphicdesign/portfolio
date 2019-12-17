@@ -132,6 +132,7 @@ footer a:hover, a:active{
 
 .page-break-box img{
 	height: 475px;
+	margin-left: -100px;
 	}
 
 .index-content1 img{
