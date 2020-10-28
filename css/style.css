@@ -1,14 +1,6 @@
 
-@font-face {
-  font-family: 'StudioBrushDEMO-Regular';
-  src: url('StudioBrushDEMO-Regular.eot?#iefix') format('embedded-opentype'),  url('StudioBrushDEMO-Regular.otf')  format('opentype'),
-	     url('StudioBrushDEMO-Regular.woff') format('woff'), url('StudioBrushDEMO-Regular.ttf')  format('truetype'), url('StudioBrushDEMO-Regular.svg#StudioBrushDEMO-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body{
-	font-family: helvetica neue, helvetica;
+	font-family: novecento-sans, sans-serif;
 	font-size: 12px;
 	margin: 5px;
 	padding: 5px;
@@ -177,7 +169,7 @@ footer a:hover, a:active{
 }
 
 .about-content-text h1{
-	font-family: 'StudioBrushDEMO-Regular';
+	font-family: novecento-sans-condensed, sans-serif;
 	font-size: 75px;
 	text-align: center;
 	margin-bottom: 5px;
@@ -260,7 +252,7 @@ footer a:hover, a:active{
 }
 
 .contact-content h1{
-	font-family: 'StudioBrushDEMO-Regular';
+	font-family: novecento-sans-condensed, sans-serif;
 	font-size: 75px;
 	color: #00aeef;
 }
@@ -297,7 +289,7 @@ footer a:hover, a:active{
 
 .contact-form h2{
 	text-align: center;
-	font-family: 'StudioBrushDEMO-Regular';
+	font-family: novecento-sans-condensed, sans-serif;
 	font-size: 40px;
 	margin-left: 50px;
 	color: rgba(249, 237, 50, 1);
