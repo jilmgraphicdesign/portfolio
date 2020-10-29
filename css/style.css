@@ -70,9 +70,19 @@ nav ul li a:hover, a:active{
 }
 
 .home img{
-	height: 74px;
+	height: 70px;
 	margin-top: -20px;
 } 
+
+.home{
+	text-align: right;
+}
+
+.jellybean img{
+	margin-right: -30px;
+	height: 74px;
+	margin-top: -20px;
+}
 
 footer{
 	clear: both;
