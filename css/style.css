@@ -201,7 +201,7 @@ footer ul li{
 
 
 .contact-content{
-	text-align: right;
+	text-align: center;
 }
 
 .contact-content a:link, a:visited{
@@ -217,9 +217,6 @@ footer ul li{
 .contact-content img{
 	height: 50px;
 	width: 50px;
-	display: inline-block;
-	z-index: 2;
-	text-align: right;
 
 }
 
@@ -231,28 +228,40 @@ footer ul li{
 
 
 .contact-content blockquote{
-	text-align: left;
-	width: 400px;
+	font-family: novecento-sans-condensed, sans-serif;
+	font-size: 75px;
+	margin-bottom: 5px;
+	color: rgba(249, 237, 50, 1);
 
 }
 
+.socialmedia ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: center;
+	padding: 0;
+}
+
+.socialmedia{
+	text-align: center;
+}
+
 .contact-form{
-	background: #00aeef;
-	height: 1000px;
-	width: 50%;
-	float: right;
-	margin: 0;
-	margin-left: 25px;
-	border-radius: 20px;
-	color: rgba(249, 237, 50, 1);
 	font-family: novecento-sans, sans-serif;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: left;
+	background: #00aeef;
+	display: block;
+	z-index: 2;
+	border-radius: 20px 0px 0px 0px;
+	color: rgba(249, 237, 50, 1);
 
 }
 
 .contact-form-text{
-	width: 400px;
-	height: 600px;
-	padding: 130px 25px 75px;
+	padding: 25px;
 	font-family: novecento-sans, sans-serif;
 }
 
@@ -265,9 +274,7 @@ footer ul li{
 }
 
 .contact-form .item{
-	float: left;
 	width: 200px;
-	margin-left: 40px;
 }
 .contact-form label{
 	display: block;
@@ -278,11 +285,19 @@ footer ul li{
 .contact-form input[type='text']{
 	display: block;
 	font-family: novecento-sans, sans-serif;
-	width: 400px;
-	height: 80px;
+	width: 200px;
+	height: 50px;
 	padding-left: 10px;
 	border-style: none;
 	border-radius: 20px 0px 0px 0px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
 }
 
 button.cta{
@@ -294,8 +309,7 @@ button.cta{
 	padding: 20px 30px;
 	border-radius: 20px 0px 0px 0px;
 	text-decoration: none;
-	margin-top: 20px;
-	margin-left: 140px;
+	margin: 100px;
 	cursor: pointer;
 	outline: none;
 	border: none;
@@ -310,5 +324,8 @@ button.cta:hover{
 	background-color: #e65788;
 }
 
+.contact-footer{
+	margin-top: 600px;
+}
 
 
