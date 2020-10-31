@@ -121,25 +121,18 @@ footer ul li{
 	margin: 0px;
 	width: 100%;
 	height: 475px;
-	background-color: rgba(249, 237, 50, 1);
 	position: absolute;
 	text-align: center;
 	left: 0;
 	top:718px;
 	color:#11cc84;
-	
-	
+	background-color: rgba(249, 237, 50, 1);
 }
-
-.page-break-box img{
-	height: 475px;
-	margin-left: -100px;
-	}
 
 .index-content1 img{
     height: 610px;
-    display:inline-block;
-	position: absolute;
+    width: 1049.910px;
+    position: absolute;
 	left: 45%;
 	margin-left: -504px;
 	margin-top: 75px;
@@ -335,4 +328,49 @@ button.cta:hover{
 	margin-top: 795px;
 }
 
+.page-break-box3{
+	padding-top: 40px;
+	margin-top: 0px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: auto;
+	top:718px;
+	background-color: rgba(249, 237, 50, 1);
+}
 
+.rowg {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: space-around;
+}
+
+/* Create four equal columns that sits next to each other */
+.columng {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columng img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .columng {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columng {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
