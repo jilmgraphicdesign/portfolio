@@ -46,7 +46,7 @@ nav ul li{
 	text-align: right;
 	padding: 10px;
 	float: right;
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 nav ul li a{
@@ -162,19 +162,24 @@ footer ul li{
 	color: rgba(249, 237, 50, 1);
 }
 
+.about-content{
+	padding-top: 75px;
+	margin: 0 auto;
+	max-width: 1469px;
+}
 
 .about-content img{
 	float: left;
 	height: 500px;
 	width: auto;
 	margin-right: 50px;
+	margin-top: -74px;
 
 }
 
 .about-content-text{
-	height: 500px;
+	max-height: 400px;
 	margin: 0 auto;
-	margin-bottom: 10px;
 	padding: 0 10px 0;
 	text-align: left;
 	color: #00aeef;;
@@ -182,10 +187,11 @@ footer ul li{
 	z-index: 2;
 }
 
-.about-content-text h1{
+.about-content h1{
 	font-family: novecento-sans-condensed, sans-serif;
 	font-size: 75px;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .about-content2{
@@ -197,12 +203,13 @@ footer ul li{
 }
 
 .about-footer{
-	margin-top: 600px;
+	margin-top: 711px;
 }
 
 
 .contact-content{
 	text-align: center;
+	padding-top: 75px;
 }
 
 .contact-content a:link, a:visited{
@@ -218,6 +225,13 @@ footer ul li{
 .contact-content img{
 	height: 50px;
 	width: 50px;
+	padding: 5px;
+
+}
+
+.contact-content img:hover{
+	height: 75px;
+	width: 75px;
 
 }
 
@@ -346,13 +360,7 @@ button.cta:hover{
   justify-content: space-evenly;
 }
 
-.columng img:hover{
-  width: 150%;
-  margin-left: -25%;
-}
 
-
-/* Create four equal columns that sits next to each other */
 .columng {
   flex: 25%;
   max-width: 25%;
@@ -365,7 +373,10 @@ button.cta:hover{
   width: 100%;
 }
 
-
+.columng img:hover{
+	width: 150%;
+	margin-left: -25%;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
