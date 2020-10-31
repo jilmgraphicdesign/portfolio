@@ -136,7 +136,6 @@ footer ul li{
 	left: 45%;
 	margin-left: -504px;
 	margin-top: 75px;
-
 }
 
 .page-break-box2{
@@ -342,9 +341,16 @@ button.cta:hover{
 .rowg {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   padding: 0 4px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
+
+.columng img:hover{
+  width: 150%;
+  margin-left: -25%;
+}
+
 
 /* Create four equal columns that sits next to each other */
 .columng {
@@ -358,6 +364,8 @@ button.cta:hover{
   vertical-align: middle;
   width: 100%;
 }
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
