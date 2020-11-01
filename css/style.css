@@ -142,7 +142,7 @@ footer ul li{
 	height: 500px;
     position: absolute;
 	left: 45%;
-	margin-left: -382px;
+	margin-left: -402px;
 	margin-top: 148px;
 }
 
@@ -150,7 +150,7 @@ footer ul li{
 	height: 500px;
     position: absolute;
 	left: 45%;
-	margin-left: -5px;
+	margin-left: -25px;
 	margin-top: 148px;
 }
 
@@ -158,7 +158,7 @@ footer ul li{
 	height: 500px;
     position: absolute;
 	left: 45%;
-	margin-left: 358px;
+	margin-left: 338px;
 	margin-top: 148px;
 }
 
@@ -181,6 +181,20 @@ footer ul li{
 	text-align: center;
 	left: 0;
 	top:718px;
+}
+
+.jellybeandraws{
+	height: 342px;
+    position: absolute;
+	left: 6%;
+	margin-top: -347px;
+}
+
+.jellybeandrawings{
+	height: 315px;
+    position: absolute;
+	left: 48%;
+	margin-top: -397px;
 }
 
 .page-break-box2-text{
