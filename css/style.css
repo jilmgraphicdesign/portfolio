@@ -138,6 +138,39 @@ footer ul li{
 	margin-top: 75px;
 }
 
+.artbutton{
+	height: 500px;
+    position: absolute;
+	left: 45%;
+	margin-left: -382px;
+	margin-top: 148px;
+}
+
+.photographbutton{
+	height: 500px;
+    position: absolute;
+	left: 45%;
+	margin-left: -5px;
+	margin-top: 148px;
+}
+
+.designbutton{
+	height: 500px;
+    position: absolute;
+	left: 45%;
+	margin-left: 358px;
+	margin-top: 148px;
+}
+
+
+.jellybeangallery{
+	height: 173px;
+    position: absolute;
+	left: 45%;
+	margin-left: -699px;
+	margin-top: 512px;
+}
+
 .page-break-box2{
 	padding-top: 40px;
 	margin: 0px;
