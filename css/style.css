@@ -85,19 +85,67 @@ nav ul li a:hover, a:active{
 }
 
 footer{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-evenly;
+	padding: 0;
 	clear: both;
 	padding-top: 20px;
 }
 
 footer ul{
+	display: flex;
+	flex-direction: column;
 	list-style: none;
-
-}
-
-footer ul li{
+	padding: 0;
+	clear: both;
+	padding-top: 20px;
 	text-align: center;
+	width: 200px;
 }
 
+
+.socialmediafooter ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: center;
+	padding: 0;
+	clear: both;
+}
+
+footer img{
+	height: 25px;
+	width: 25px;
+	padding: 5px;
+}
+
+footer a:link, a:visited{
+	color: #fbb040;
+	text-decoration: none;
+}
+
+footer a:hover, a:active{
+	color: #e65788;
+	text-decoration: none;
+}
+
+.about-footer{
+	margin-top: 725px;
+}
+
+.index-footer{
+	margin-top: 1200px;
+}
+
+.contact-footer{
+	margin-top: 795px;
+}
+
+.gallery-footer{
+	margin-top: 800px;
+}
 
 .logo{
 	text-align: left;
@@ -109,10 +157,6 @@ footer ul li{
 .logo img{
 	height: 125px;
 	margin-top: -23px;
-}
-
-.index-footer{
-	margin-top: 1200px;
 }
 
 
@@ -249,10 +293,6 @@ footer ul li{
 
 }
 
-.about-footer{
-	margin-top: 725px;
-}
-
 
 .contact-content{
 	text-align: center;
@@ -384,12 +424,8 @@ button.cta:hover{
 	background-color: #e65788;
 }
 
-.contact-footer{
-	margin-top: 795px;
-}
-
 .page-break-box3{
-	padding-top: 40px;
+	padding: 40px 0;
 	margin-top: 0px;
 	width: 100%;
 	position: absolute;
@@ -410,9 +446,19 @@ button.cta:hover{
 
 .columng {
   flex: 25%;
-  max-width: 25%;
+  max-width: 20%;
   padding: 0 4px;
 }
+
+.img-text{
+	text-align: center;
+	background: #00aeef;
+	color: rgba(249, 237, 50, 1);
+	padding: 25px;
+	margin-bottom: -8px;
+	display: none;
+}
+
 
 .columng img {
   margin-top: 8px;
@@ -420,9 +466,13 @@ button.cta:hover{
   width: 100%;
 }
 
-.columng img:hover{
-	width: 150%;
-	margin-left: -25%;
+.columng .wrapper:hover{
+	width: 140%;
+	margin-left: -20%;
+}
+
+.columng .wrapper:hover .img-text{
+	display: inline-block;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
